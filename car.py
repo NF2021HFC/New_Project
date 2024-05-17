@@ -1,4 +1,8 @@
 class Car:
     name = ""
-    def __int__(self, name):
+    color = ""
+
+    def __int__(self, name, color):
         self.name = name
+        self.color = color
+
